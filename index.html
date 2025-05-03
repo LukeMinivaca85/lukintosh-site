@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <script>
+    const sub = window.location.hostname.split(".")[0];
+  
+    const map = {
+      "cloud": "/cloud.html",
+      "about": "/about.html",
+      "play": "/play.html",
+      "support": "/support.html",
+      "store": "/store.html",
+      "developer": "/developer.html",
+      "ai": "/ai.html" // 👈 Aqui está o AI!
+    };
+  
+    if (map[sub]) {
+      window.location.href = map[sub];
+    }
+  </script>
+  
   <!-- Favicon -->
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
 
