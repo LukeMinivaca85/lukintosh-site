@@ -1,0 +1,40 @@
+{
+    "redirects": [
+      {
+        "source": "/ai.lukintosh-site.vercel.app",
+        "destination": "/ai.html",
+        "permanent": true
+      },
+      {
+        "source": "/cloud.lukintosh-site.vercel.app",
+        "destination": "/cloud.html",
+        "permanent": true
+      },
+      {
+        "source": "/store.lukintosh-site.vercel.app",
+        "destination": "/store.html",
+        "permanent": true
+      },
+      {
+        "source": "/about.lukintosh-site.vercel.app",
+        "destination": "/about.html",
+        "permanent": true
+      },
+      {
+        "source": "/play.lukintosh-site.vercel.app",
+        "destination": "/play.html",
+        "permanent": true
+      },
+      {
+        "source": "/support.lukintosh-site.vercel.app",
+        "destination": "/support.html",
+        "permanent": true
+      },
+      {
+        "source": "/developer.lukintosh-site.vercel.app",
+        "destination": "/developer.html",
+        "permanent": true
+      }
+    ]
+  }
+  
